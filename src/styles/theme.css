@@ -1,0 +1,79 @@
+/* الوضع الفاتح (الافتراضي) */
+:root {
+  --bg-from: #eaf0fa;
+  --bg-to: #f6f9fe;
+  --card-bg: #ffffff;
+  --surface: #fbfcff;
+  --input-bg: #f6f8fd;
+  --border: #d3dbea;
+  --divider: #e3e8f2;
+
+  --text: #1b2a49;
+  --text-muted: #3d4f73;
+  --text-subtle: #6b7a99;
+  --heading: #0f2f78;
+  --brand-ar: #123a8f;
+  --brand-en: #35508a;
+
+  --emblem-bg: #123a8f;
+  --primary: #1565e8;
+  --primary-hover: #0f55c7;
+  --link: #1565e8;
+
+  --error: #c5221f;
+  --error-border: #d93025;
+  --notice-bg: #e8f0fe;
+  --notice-text: #174ea6;
+
+  --switch-bg: #e3e9f6;
+  --switch-active-bg: #ffffff;
+  --switch-active-text: #0f2f78;
+  --switch-text: #3a4a6b;
+  --switch-hover: #123a8f;
+
+  --focus-ring: rgba(21, 101, 232, 0.5);
+  --focus-glow: rgba(21, 101, 232, 0.18);
+  --shadow: rgba(18, 58, 143, 0.18);
+
+  color-scheme: light;
+}
+
+/* الوضع الداكن */
+:root[data-theme='dark'] {
+  --bg-from: #0a111f;
+  --bg-to: #0f1a30;
+  --card-bg: #121c33;
+  --surface: #121c33;
+  --input-bg: #1a2642;
+  --border: #2e3d60;
+  --divider: #26335a;
+
+  --text: #e6ecfa;
+  --text-muted: #b4c0dc;
+  --text-subtle: #93a3c6;
+  --heading: #e6ecfa;
+  --brand-ar: #bcd0ff;
+  --brand-en: #a9bbe0;
+
+  --emblem-bg: #2563eb;
+  --primary: #2563eb;
+  --primary-hover: #1d4fd1;
+  --link: #8db3ff;
+
+  --error: #ff8a80;
+  --error-border: #f28b82;
+  --notice-bg: #1b2d55;
+  --notice-text: #bcd0ff;
+
+  --switch-bg: #1c2842;
+  --switch-active-bg: #2a3b63;
+  --switch-active-text: #ffffff;
+  --switch-text: #b4c0dc;
+  --switch-hover: #ffffff;
+
+  --focus-ring: rgba(141, 179, 255, 0.7);
+  --focus-glow: rgba(141, 179, 255, 0.25);
+  --shadow: rgba(0, 0, 0, 0.55);
+
+  color-scheme: dark;
+}
